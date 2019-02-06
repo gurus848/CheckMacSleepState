@@ -10,4 +10,6 @@
 
 @interface ShellInterface : NSObject
 
+- (NSString *)runCommand:(NSString *)commandToRun;
+
 @end
